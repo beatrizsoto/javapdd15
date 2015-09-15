@@ -1,4 +1,7 @@
-Patron Decorator
+##Patron Decorator
+Inline-style: 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/c/c6/UML2_Decorator_Pattern.png "Diagrama UML")
+
 
 URL del UML: http://tinyurl.com/umldecorator
 URL del UML Espanol: http://tinyurl.com/UMLDecorator2
