@@ -1,3 +1,5 @@
+# PATRON BUILDER 
+
 El  patrón  Chain of Responsibility   construye  una  cadena  de  objetos  tal  que  si  un  objeto  de  la  cadena  no puede responder a la solicitud, puede transmitirla a su sucesor y así sucesivamente hasta que uno de los objetos 
 de la cadena responde.
 El patrón  Chain of Responsibility  proporciona una solución para llevar a cabo este mecanismo. Consiste en 
