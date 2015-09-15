@@ -1,5 +1,5 @@
 ##Patron Decorator
-Inline-style: 
+
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/c/c6/UML2_Decorator_Pattern.png "Diagrama UML")
 
 
