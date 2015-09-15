@@ -1,4 +1,6 @@
-El  patrón  Chain of Responsibility   construye  una  cadena  de  objetos  tal  que  si  un  objeto  de  la  cadena  no puede responder a la solicitud, puede transmitirla a su sucesor y así sucesivamente hasta que uno de los objetos 
+#El  patrón  Chain of Responsibility 
+
+construye  una  cadena  de  objetos  tal  que  si  un  objeto  de  la  cadena  no puede responder a la solicitud, puede transmitirla a su sucesor y así sucesivamente hasta que uno de los objetos 
 de la cadena responde.
 El patrón  Chain of Responsibility  proporciona una solución para llevar a cabo este mecanismo. Consiste en 
 enlazar  los  objetos  entre  ellos  desde  el  más  específico  (el  vehículo)  al  más  general  (la  marca)  para formar  la cadena de responsabilidad. La solicitud de la descripción se transmite a lo largo de la cadena hasta que un objeto pueda procesarla y enviar la descripción. 
