@@ -23,7 +23,7 @@ A continuación tenemos a los participantes de forma desglosada:
 - *Sujeto Concreto (ConcreteSubject)*: Mantiene el estado de interés para los observadores concretos y los notifica cuando cambia su estado. No tienen porque ser elementos de la misma jerarquía.
 - *Observador Concreto (ConcreteObserver)*: Mantiene una referencia al sujeto concreto e implementa la interfaz de actualización, es decir, guardan la referencia del objeto que observan, así en caso de ser notificados de algún cambio, pueden preguntar sobre este cambio.
 
-
+------------------------------
 
 - **[UML Observer English][1]** 
 - **[UML Observer Español][2]**
