@@ -1,33 +1,30 @@
 
 /**
- * Write a description of class Padre here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ Esta es la clase principal de nuestro programa, donde contará con métodos específicos para poder realizar
+ acciones sin necesidad de estar implementadas a la hora de correr el programa.
  */
 public class Padre
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Padre
-     */
-    public Padre()
+    private String Nombre;
+    private int Edad;
+    
+    public String GetNombre()
     {
-        // initialise instance variables
-        x = 0;
+        return this.Nombre;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    
+    public void SetNombre(String nombre)
     {
-        // put your code here
-        return x + y;
+        this.Nombre = nombre;
+    }
+    
+     public int GetEdad()
+    {
+        return this.Edad;
+    }
+    
+    public void SetEdad(int edad)
+    {
+        this.Edad = edad;
     }
 }
