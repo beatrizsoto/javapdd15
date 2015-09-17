@@ -11,3 +11,4 @@ Definir un interprete para un lenguaje
 ###Objetivo del patron:
 Existen problemas particulares que pueden expresarse en funcion de algun lenguaje, a veces es conveniente representar un lenguaje como palabras de algun lenguaje sencillo, como por ejemplo, evaluar expresiones booleanas.
 El patron interprete describe como definir una gramatica, representar palabras del lenguaje y como interpretarlas.
+fin.
