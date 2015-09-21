@@ -16,3 +16,8 @@ Este patrón es ampliamente utilizado en intérpretes, compiladores y procesador
 
 #**Estructura**
 ![alt text](https://liberatucodigo.files.wordpress.com/2012/08/estructura.png?w=551 "Logo Title Text 1")
+
+>**Donde**
+>* Unordered list can use asterisks
+>- Or minuses
+>+ Or pluses
