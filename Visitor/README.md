@@ -1,10 +1,10 @@
 #Patrones de Diseño
 ##Visitor
 <dl>
-  <dt>Definition list</dt>
+  <dt>Definición</dt>
 </dl>  
-Construye operaciones a realizar en los elementos de un conjunto de objetos.
--Se pueden agregar nuevas operaciones sin modificar las clases de estos objetos.
+>Construye operaciones a realizar en los elementos de un conjunto de objetos.
+>Se pueden agregar nuevas operaciones sin modificar las clases de estos objetos.
 
 Descripción
 construye una operación que debe realizarse sobre los elementos de un conjunto de objetos. Esto permite agregar nuevas operaciones sin modificar las clases de estos objetos
