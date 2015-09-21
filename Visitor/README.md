@@ -1,4 +1,4 @@
-#**Patrones de Diseño** 
+#Patrones de Diseño
 ##Visitor
 
 *Construye operaciones a realizar en los elementos de un conjunto de objetos.
