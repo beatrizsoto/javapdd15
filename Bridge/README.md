@@ -1,6 +1,7 @@
 ## El patrón *Bridge*
 
-![alt text](https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620 "Logo Title Text 1")
+![alt center text](https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620 "Logo Title Text 1")
+
 **Objetivo:**
 
 * “Desacoplar una abstracción de su implementación de modo que los dos puedan ser modificados de forma independiente.”
