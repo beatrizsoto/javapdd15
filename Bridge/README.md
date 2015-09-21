@@ -1,1 +1,1 @@
-## El patrón **Bridge**
+## El patrón *Bridge*
