@@ -1,3 +1,4 @@
+Primer Version 
 public class ClaseObservador extends Observable{
   
  private int colorSeleccionado;
@@ -22,7 +23,7 @@ public class ClaseObservador extends Observable{
  }
 }
 
-public static void main(String[] args) 
+public static void main(String[] args)
 {
   ClaseObservador observador=new ClaseObservador();
   VentanaOpciones miVentanaOpciones=new VentanaOpciones(observador);
