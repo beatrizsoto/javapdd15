@@ -14,7 +14,7 @@ El patrón visitor también especifica cómo sucede la interacción en la estruc
 
 Este patrón es ampliamente utilizado en intérpretes, compiladores y procesadores de lenguajes, en general.
 
-#**Estructura**
+##**Estructura**
 ![alt text](https://liberatucodigo.files.wordpress.com/2012/08/estructura.png?w=551 "Logo Title Text 1")
 
 >**Donde**
