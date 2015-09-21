@@ -18,6 +18,7 @@ Este patrón es ampliamente utilizado en intérpretes, compiladores y procesador
 ![alt text](https://liberatucodigo.files.wordpress.com/2012/08/estructura.png?w=551 "Logo Title Text 1")
 
 >**Donde**
->* Visitante (Visitor): Declara una operación de visita para cada elemento concreto en la estructura de objetos,que incluye el propio objeto visitado
->- Or minuses
->+ Or pluses
+>* **Visitante (Visitor)**: Declara una operación de visita para cada elemento concreto en la estructura de objetos, que incluye el propio objeto visitado
+>- **Visitante Concreto (ConcreteVisitor1/2)**: Implementa las operaciones del visitante y acumula resultados como estado local
+>+ **Elemento (Element)**: Define una operación “Accept” que toma un visitante como argumento
+>* **Elemento Concreto (ConcreteElementA/B)**: Implementa la operación “Accept”
