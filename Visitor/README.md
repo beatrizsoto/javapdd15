@@ -15,10 +15,11 @@ El patrón visitor también especifica cómo sucede la interacción en la estruc
 Este patrón es ampliamente utilizado en intérpretes, compiladores y procesadores de lenguajes, en general.
 
 ##**Estructura**
-![alt text](https://liberatucodigo.files.wordpress.com/2012/08/estructura.png?w=551 "Logo Title Text 1")
+![alt text](https://lh3.googleusercontent.com/_Xd3cyzJbgLtMIQZXf2jGTn67W6RUG8JukEHQkZw-JLTBrkwkdX8vLjoRXBot2L1ePqm-hTmp1n7iUd-S9neA0QKpGaUYfguFk_SdQQzh4y2xjnG_Q "Logo Title Text 1")
 
 >**Donde**
->* **Visitante (Visitor)**: Declara una operación de visita para cada elemento concreto en la estructura de objetos, que incluye el propio objeto visitado
->- **Visitante Concreto (ConcreteVisitor1/2)**: Implementa las operaciones del visitante y acumula resultados como estado local
->+ **Elemento (Element)**: Define una operación “Accept” que toma un visitante como argumento
->* **Elemento Concreto (ConcreteElementA/B)**: Implementa la operación “Accept”
+>* **Visitor**: declara una operación de visita para cada uno de los elementos concretos de la estructura de objetos. Esto es, el método visit().
+>- **VisitorConcreto** : implementa cada una de las operaciones declaradas por Visitor. 
+>+ **Element**: define la operación que le permite aceptar la visita de un Visitor.
+>* **ConcreteElement**: implementa el método accept() que se limita a invocar su correspondiente método del Visitor.
+>- **ObjectStructure**: gestiona la estructura de objetos y puede ofrecer una interfaz de alto nivel para permitir a los Visitor visitar a sus elementos.
