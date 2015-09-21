@@ -18,6 +18,6 @@ Este patrón es ampliamente utilizado en intérpretes, compiladores y procesador
 ![alt text](https://liberatucodigo.files.wordpress.com/2012/08/estructura.png?w=551 "Logo Title Text 1")
 
 >**Donde**
->* Unordered list can use asterisks
+>* Visitante (Visitor): Declara una operación de visita para cada elemento concreto en la estructura de objetos,que incluye el propio objeto visitado
 >- Or minuses
 >+ Or pluses
