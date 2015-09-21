@@ -1,7 +1,9 @@
 #Patrones de Diseño
 ##Visitor
-<dt>Definition list</dt>
-*Construye operaciones a realizar en los elementos de un conjunto de objetos.
+<dl>
+  <dt>Definition list</dt>
+</dl>  
+Construye operaciones a realizar en los elementos de un conjunto de objetos.
 -Se pueden agregar nuevas operaciones sin modificar las clases de estos objetos.
 
 Descripción
