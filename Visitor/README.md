@@ -13,3 +13,6 @@ Cada método visit de un visitante concreto puede ser pensado como un método qu
 El patrón visitor también especifica cómo sucede la interacción en la estructura del objeto. En su versión más sencilla, donde cada algoritmo necesita iterar de la misma forma, el método accept de un elemento contenedor, además de una llamada al método visit del objeto visitor, también pasa el objeto visitor como argumento al llamar al método accept de todos sus elementos hijos.
 
 Este patrón es ampliamente utilizado en intérpretes, compiladores y procesadores de lenguajes, en general.
+
+#**Estructura**
+![alt text](https://liberatucodigo.files.wordpress.com/2012/08/estructura.png?w=551 "Logo Title Text 1")
