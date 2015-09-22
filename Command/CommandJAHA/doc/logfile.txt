@@ -1,0 +1,67 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-6-openjdk-amd64/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.6
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/usr/share/bluej/userlib/pi4j-device.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/usr/share/bluej/userlib/pi4j-service.jar:/home/itt/javapdd/Command/CommandJAHA
+-d
+/home/itt/javapdd/Command/CommandJAHA/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/itt/javapdd/Command/CommandJAHA/Padre.java
+<---- end of javadoc command ---->
+Loading source file /home/itt/javapdd/Command/CommandJAHA/Padre.java...
+Constructing Javadoc information...
+/home/itt/javapdd/Command/CommandJAHA/Padre.java:8: cannot find symbol
+symbol  : class string
+location: class Padre
+    private string Nombre;
+            ^
+/home/itt/javapdd/Command/CommandJAHA/Padre.java:11: cannot find symbol
+symbol  : class string
+location: class Padre
+    public string GetNombre()
+           ^
+/home/itt/javapdd/Command/CommandJAHA/Padre.java:16: cannot find symbol
+symbol  : class string
+location: class Padre
+    public void SetNombre(string nombre)
+                          ^
+/home/itt/javapdd/Command/CommandJAHA/Padre.java:21: cannot find symbol
+symbol  : class string
+location: class Padre
+     public string GetEdad()
+            ^
+/home/itt/javapdd/Command/CommandJAHA/Padre.java:26: cannot find symbol
+symbol  : class string
+location: class Padre
+    public void SetEdad(string edad)
+                        ^
+Standard Doclet version 1.6.0_36
+Building tree for all the packages and classes...
+Generating /home/itt/javapdd/Command/CommandJAHA/doc/Padre.html...
+Generating /home/itt/javapdd/Command/CommandJAHA/doc/package-frame.html...
+Generating /home/itt/javapdd/Command/CommandJAHA/doc/package-summary.html...
+Generating /home/itt/javapdd/Command/CommandJAHA/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/itt/javapdd/Command/CommandJAHA/doc/allclasses-frame.html...
+Generating /home/itt/javapdd/Command/CommandJAHA/doc/allclasses-noframe.html...
+Generating /home/itt/javapdd/Command/CommandJAHA/doc/index.html...
+Generating /home/itt/javapdd/Command/CommandJAHA/doc/stylesheet.css...
+5 warnings

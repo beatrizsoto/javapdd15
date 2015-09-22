@@ -1,10 +1,11 @@
-Patron Decorator
+##Patron Decorator
 
-URL del UML: http://tinyurl.com/umldecorator
-URL del UML Espanol: http://tinyurl.com/UMLDecorator2
+![alt text](https://upload.wikimedia.org/wikipedia/commons/c/c6/UML2_Decorator_Pattern.png "Diagrama UML")
 
-El patron proporcionan una alternativa flexible a la herencia para extender funcionalidad.
 
+### Caracteristicas principales del patron:
+
+*El patron proporcionan una alternativa flexible a la herencia para extender funcionalidad.
 *Un decorador hereda de la misma clase que los objetos que tendrá que decorar.
 *Es posible utilizar más de un decorador para encapsular un mismo objeto.
 *El objeto decorador añade su propia funcionalidad, bien antes, bien después, de delegar el resto del trabajo en el   objeto que está decorando.
