@@ -1,5 +1,7 @@
 # Patron de Comportamiento: Strategy
 
+El patrón estrategia permite mantener un conjunto de algoritmos de entre los cuales el objeto cliente puede elegir aquel que le conviene e intercambiarlo dinámicamente según sus necesidades.
+
 El patrón  **Strategy**  tiene como objetivo adaptar el comportamiento y los algoritmos de un objeto en función de una necesidad sin cambiar las interacciones de este objeto con los clientes. 
 
 Esta necesidad puede ponerse de relieve en base a aspectos tales como la presentación, la eficacia en tiempo de ejecución o  en  memoria,  la  elección  de  algoritmos,  la  representación  interna,  etc.  Aunque  evidentemente  no se trata de una  necesidad  funcional  de  cara  a  los  clientes  del  objeto  pues  las  interacciones  entre  el  objeto  y  sus clientes deben permanecer inmutables.
@@ -12,3 +14,17 @@ Usar este patrón cuando:
     ⋅⋅*Se necesitan distintas variantes del mismo algoritmo.
 
     ⋅⋅*Una clase define muchos comportamientos.
+
+## Participantes en el diagrama UML.
+
+    ..*Estrategia (Componedor)
+        Declara la interfaz común a todos los algoritmos permitidos.
+        El *contexto* usa esa interfaz para llamar al algoritmo definido por una estrategia
+
+    ..*Estrategia Concreta
+        Implementa el algoritmo concreto
+
+    ..*Contexto
+        Instancia un objeto Estrategia Concreta
+        Mantiene una referencia la un objeto estrategia (concreta)
+        Puede definir una interfaz que permita a la Estrategia (concreta) acceder a sus datos.
