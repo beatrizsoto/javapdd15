@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=moneda
+comment0.target=void\ setMoneda(java.lang.Double)
+comment1.params=cantidad
+comment1.target=void\ setCantidad(java.lang.Double)
+comment2.params=
+comment2.target=java.lang.Double\ getResultado()
+comment3.params=
+comment3.target=void\ convetirDolarAPeso()
+comment4.params=
+comment4.target=void\ convertirPesoADolar()
+numComments=5
