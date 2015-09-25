@@ -10,3 +10,7 @@
 
 #####Diagrama UML
 ![alt text](https://lh3.googleusercontent.com/zRSPCgsvEraePczqEnz812vs4Q1bIdsNfanLyuRMcOnPoguqR5Fn-cErEwr8K_Eh-LKjVzRfyiY2sCrqrhVZLoYjnVU6Kl_CXqkZsxGpOFgbXghuAXA "FACADE")
+
+* **Facade:**  conoce cuales clases del subsistema son responsables de una petición. 
+Delega las peticiones de los clientes en los objetos del subsistema.
+-**Subsistema:** manejar el trabajo asignado por el objeto Facade. No tienen ningún conocimiento del Facade (no guardan referencia de éste).
