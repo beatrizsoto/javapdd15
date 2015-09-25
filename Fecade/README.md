@@ -13,4 +13,7 @@
 
 * **Facade:**  conoce cuales clases del subsistema son responsables de una petición. 
 Delega las peticiones de los clientes en los objetos del subsistema.
--**Subsistema:** manejar el trabajo asignado por el objeto Facade. No tienen ningún conocimiento del Facade (no guardan referencia de éste).
+- **Subsistema:** manejar el trabajo asignado por el objeto Facade. No tienen ningún conocimiento del Facade (no guardan referencia de éste).
+
+>Los clientes se comunican con el subsistema a través de la facade, que reenvía las peticiones a los objetos del subsistema apropiados y puede realizar también algún trabajo de traducción. Los clientes que usan la facade no necesitan acceder directamente a los objetos del sistema.
+
