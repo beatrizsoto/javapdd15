@@ -1,4 +1,4 @@
-# Patrones de disenño con Java
+# Patrones de diseño con Java
 
 
 
