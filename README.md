@@ -89,9 +89,9 @@ Service Locator	Consiste en utilizar un objeto Service Locutor para abstraer tod
 
 #Capa de Integración
 
-**Data Access Object Service Activator, ** Consiste en utilizar un objeto de acceso a datos para abstraer y encapsular todos los accesos a la fuente de datos. El DAO maneja la conexión con la fuente de datos para obtener y almacenar datos. 
+*Data Access Object Service Activator, * Consiste en utilizar un objeto de acceso a datos para abstraer y encapsular todos los accesos a la fuente de datos. El DAO maneja la conexión con la fuente de datos para obtener y almacenar datos. 
 
-**Service Activator,** Se utiliza para recibir peticiones y mensajes asíncronos de los clientes. Cuando se recibe un mensaje, el Service Activator localiza e invoca a los métodos de los componentes de negocio necesarios para cumplir la petición de forma asíncrona. 
+*Service Activator,* Se utiliza para recibir peticiones y mensajes asíncronos de los clientes. Cuando se recibe un mensaje, el Service Activator localiza e invoca a los métodos de los componentes de negocio necesarios para cumplir la petición de forma asíncrona. 
 
 
 [Enlace](http://java.sun.com/blueprints/corej2eepatterns/Patterns/index.html)
