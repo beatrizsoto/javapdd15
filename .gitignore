@@ -1,3 +1,4 @@
+# Todo lo que se va a ignorar por el compilador.
 *.class
 
 # Mobile Tools for Java (J2ME)

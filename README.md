@@ -1,12 +1,8 @@
 #Bloque Java Patrones de Diseño
 
-[Youtube](https://www.youtube.com/watch?v=77Kw5P5Y73U)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=77Kw5P5Y73U" target="_blank">
+<img src="http://img.youtube.com/vi/77Kw5P5Y73U/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank">
-
-<img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 [![Join the chat at https://gitter.im/tectijuana/javapdd](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/tectijuana/javapdd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -20,7 +16,7 @@ Los patrones del diseño tratan los problemas del diseño que se repiten y que s
 
 En este artículo, veremos algunos patrones de diseño para las aplicaciones basadas en J2EE.
 
-##Breve historia de los patrones de diseño 
+##Breve historia de los patrones de diseño
 
 Un patrón de diseño es una abstracción de una solución en un nivel alto. Los patrones solucionan problemas que existen en muchos niveles de abstracción. Hay patrones que abarcan las distintas etapas del desarrollo; desde el análisis hasta el diseño y desde la arquitectura hasta la implementación.
 
@@ -37,25 +33,25 @@ Estructurales: Los patrones estructurales describen como las clases y objetos pu
 **Comportamiento**: Los patrones de comportamiento nos ayudan a definir la comunicación e iteración entre los objetos de un sistema. El propósito de este patrón es reducir el acoplamiento entre los objetos.
 En el segundo nivel, ellos clasificaron los patrones en 2 ámbitos: Clases y objetos. Es así que, tenemos 6 tipos de patrones:
 
-##Creacionales	
+##Creacionales
 ###Creacional de la Clase
 Los patrones creacionales de Clases usan la herencia como un mecanismo para lograr la instanciación de la Clase. Por ejemplo el método Factoría.
 
 ###Creacional del objeto
 Los patrones creacionales de objetos son más escalables y dinámicos comparados de los patrones creacionales de Clases. Por ejemplo la Factoría abstracta y el patrón Singleton.
-Estructurales	
+Estructurales
 Estructural de la Clase
 Los patrones estructurales de Clases usan la herencia para proporcionar interfaces más útiles combinando la funcionalidad de múltiples Clases. Por ejemplo el patrón Adaptador (Clase).
 Estructural de Objetos
 Los patrones estructurales de objetos crean objetos complejos agregando objetos individuales para construir grandes estructuras. La composición de l patrón estructural del objeto puede ser cambiado en tiempo de ejecución, el cual nos da flexibilidad adicional sobre los patrones estructurales de Clases. Por ejemplo el Adaptador (Objeto), Facade, Bridge, Composite.
-Comportamiento	
+Comportamiento
 Comportamiento de Clase
 Los patrones de comportamiento de Clases usan la herencia para distribuir el comportamiento entre Clases. Por ejemplo Interpreter.
 Comportamiento de Objeto
 Los patrones de comportamiento de objetos nos permite analizar los patrones de comunicación entre objetos interconectados, como objetos incluidos en un objeto complejo. Ejemplo Iterator, Observer, Visitor.
 
 
-###Patrones J2EE 
+###Patrones J2EE
 Con la aparición del J2EE, todo un nuevo catálogo de patrones de diseño apareció. Desde que J2EE es una arquitectura por si misma que involucra otras arquitecturas, incluyendo servlets, JavaServer Pages, Enterprise JavaBeans, y más, merece su propio conjunto de patrones específicos para diferentes aplicaciones empresariales.
 
 De acuerdo al libro "J2EE PATTERNS Best Practices and Design Strategies", existen 5 capas en la arquitectura J2EE:
@@ -69,7 +65,7 @@ Recurso
 
 
 
-##Catálogo de patrones J2EE 
+##Catálogo de patrones J2EE
 
 ###Capa de Presentación
 
