@@ -26,6 +26,7 @@ A continuación tenemos a los participantes de forma desglosada:
 
 
 En este video podemos ver un ejemplo explicado y programado en tiempo real del patrón Observer.
+
 **[Video Observer PDD][3]**
 
 ------------------------------
