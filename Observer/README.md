@@ -1,5 +1,5 @@
 
-##Patrón Observer :computer:
+##Patrón Observer 
 ------------------------
 
 Define una dependencia entre objetos de uno a muchos de modo que cuando un **objeto cambia** su estado todos sus **dependientes son notificados** y actualizados automáticamente.
@@ -27,12 +27,12 @@ A continuación tenemos a los participantes de forma desglosada:
 
 En este video podemos ver un ejemplo explicado y programado en tiempo real del patrón Observer.
 
-**[Video Observer PDD][3]**
+:computer:     **[Video Observer PDD][3]**
 
 ------------------------------
 
-- **[UML Observer English][1]** 
-- **[UML Observer Español][2]**
+- **[UML Observer English][1]** :memo:
+- **[UML Observer Español][2]** :memo:
 
 
 [1]:http://tinyurl.com/UMLObserverEnglish
