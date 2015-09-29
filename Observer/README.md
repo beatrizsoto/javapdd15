@@ -22,6 +22,9 @@ A continuación tenemos a los participantes de forma desglosada:
 - *Observador (Observer)*: Define el método que usa el sujeto para notificar cambios en su estado (update/notify).
 - *Sujeto Concreto (ConcreteSubject)*: Mantiene el estado de interés para los observadores concretos y los notifica cuando cambia su estado. No tienen porque ser elementos de la misma jerarquía.
 - *Observador Concreto (ConcreteObserver)*: Mantiene una referencia al sujeto concreto e implementa la interfaz de actualización, es decir, guardan la referencia del objeto que observan, así en caso de ser notificados de algún cambio, pueden preguntar sobre este cambio.
+- 
+En este video podemos ver un ejemplo explicado y programado en tiempo real del patrón Observer.
+**[Video Observer PDD][3]**
 
 ------------------------------
 
@@ -31,3 +34,4 @@ A continuación tenemos a los participantes de forma desglosada:
 
 [1]:http://tinyurl.com/UMLObserverEnglish
 [2]:http://tinyurl.com/UMLObserverEspanol
+[3]:https://www.youtube.com/watch?v=Zt6478Za0zk
