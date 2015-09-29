@@ -1,6 +1,7 @@
 
 ##Patrón Observer 
 ------------------------
+![alt text](http://public.blu.livefilestore.com/y1peocRcSNiHwt5xBHWZ68GDXN05ikBhZOnb4-WdE488GWFO2uqVBQEq4o3uKH9fZAPJOu0DvVopjlFkyxA43tk6A/Pattern%20Observer%20-%20Overview.png?psid=1 "Logo Title Text 1")
 
 Define una dependencia entre objetos de uno a muchos de modo que cuando un **objeto cambia** su estado todos sus **dependientes son notificados** y actualizados automáticamente.
 
