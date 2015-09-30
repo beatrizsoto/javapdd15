@@ -12,4 +12,4 @@ Si le echamos un ojo al diagrama, es posible que de base no nos aclare demasiado
 
 Video: 
 
-->[![Bridge Design Pattern](http://img.youtube.com/vi/9jIgSsIfh_8/0.jpg)](https://www.youtube.com/watch?v=9jIgSsIfh_8)<-
+-> [![Bridge Design Pattern](http://img.youtube.com/vi/9jIgSsIfh_8/0.jpg)](https://www.youtube.com/watch?v=9jIgSsIfh_8) <-
