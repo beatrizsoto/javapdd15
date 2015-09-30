@@ -5,7 +5,7 @@
   - Transformar las acciones de un objeto a objetos específicos para realizar las operaciones en estos nuevos objetos.
   - Permitir que las peticiones se logren realizar sin la necesidad de borrar lo existente.
 
-![](https://github.com/tectijuana/javapdd/blob/master/Command/UML.png?raw=true)<
+![](https://github.com/tectijuana/javapdd/blob/master/Command/UML.png?raw=true)
 
 ## Video demostrativo
 
