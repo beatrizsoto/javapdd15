@@ -10,5 +10,6 @@ El patrón **_Bridge_** o **_Puente_** es normalmente uno de los patrones que m�
   
 Si le echamos un ojo al diagrama, es posible que de base no nos aclare demasiado. Nos centraremos en el elemento central: una clase abstracta *Abstracción* que contiene una referencia a una interfaz *Implementor* y un método *operacion()* que no hace más que invocar el método *operacionOriginal()* de dicha interfaz. Lo que hace esta clase *Abstracción* es, por tanto, encapsular a la interfaz *Implementor* exponiendo sus métodos.
 
+Video: 
 
-[![Bridge Design Pattern](http://img.youtube.com/vi/9jIgSsIfh_8/0.jpg)](https://www.youtube.com/watch?v=9jIgSsIfh_8)
+->[![Bridge Design Pattern](http://img.youtube.com/vi/9jIgSsIfh_8/0.jpg)](https://www.youtube.com/watch?v=9jIgSsIfh_8)<-
