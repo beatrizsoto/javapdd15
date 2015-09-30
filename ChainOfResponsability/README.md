@@ -35,5 +35,5 @@ alguien la recoge.
 
 Video Ejemplo: 
 
-[![Chain Of Responsibility](http://img.youtube.com/vi/B34hSdo1fPc/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_B34hSdo1fPc "Chain")
+[![Chain Of Responsibility](http://img.youtube.com/vi/B34hSdo1fPc/0.jpg)](http://www.youtube.com/watch?v=B34hSdo1fPc "Chain")
 
