@@ -25,11 +25,15 @@ Hay un desacoplamiento evidente entre el objeto que lanza el trabajo (el cliente
 
 Diagrama UML
 
-https://lh6.googleusercontent.com/-3NnctckTzla7TA0IA8Be-AbBu0GJLNWMAyNV8DTowXkvpIxOtGh7vp2DXuYvgzVY0Xg1HE_e-R23dmur2jU0OADeQGrc48oI4xHxlCuJlFrfxvll1M
+![UML](https://lh6.googleusercontent.com/-3NnctckTzla7TA0IA8Be-AbBu0GJLNWMAyNV8DTowXkvpIxOtGh7vp2DXuYvgzVY0Xg1HE_e-R23dmur2jU0OADeQGrc48oI4xHxlCuJlFrfxvll1M)
+
 
 Handler: define una interfaz para tratar las peticiones. Implementa el enlace al sucesor.
 HandlerConcreto: trata las peticiones de las que es responsable. Si puede manejar la petición, lo hace, en caso contrario la reenvía a su sucesor.
 Cliente: inicializa la petición. Conoce a un gestor que es el que lanza la petición a la cadena hasta que
 alguien la recoge.
 
+Video Ejemplo: 
+
+[![Chain Of Responsibility](http://img.youtube.com/vi/B34hSdo1fPc/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_B34hSdo1fPc "Chain")
 
