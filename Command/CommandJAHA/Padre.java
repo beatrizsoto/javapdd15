@@ -27,4 +27,16 @@ public class Padre
     {
         this.Edad = edad;
     }
+    
+    public void Manejar()
+    {
+    }
+    
+    public void Trabajar()
+    {
+    }
+    
+    public void Dormir()
+    {
+    }
 }
