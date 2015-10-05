@@ -4,7 +4,7 @@
   <dt>Definición</dt>
 </dl>  
 >Construye operaciones a realizar en los elementos de un conjunto de objetos.
->Se pueden agregar nuevas operaciones sin modificar las clases de estos objetos. Esto permite agregar nuevas operaciones sin modificar las clases de estos objetos
+>Se pueden agregar nuevas operaciones sin modificar las clases de estos objetos. 
 
 La idea básica es que se tiene un conjunto de clases elemento que conforman la estructura de un objeto. Cada una de estas clases elemento tiene un método aceptar (accept()) que recibe al objeto visitante (visitor) como argumento. El **visitante** es una interfaz que tiene un método visit diferente para cada clase elemento; por tanto habrá implementaciones de la interfaz visitor de la forma: visitorClase1,visitorClase2… visitorClaseN. El método accept de una clase elemento llama al método visit de su clase. Clases concretas de un visitante pueden entonces ser escritas para hacer una operación en particular.
 
