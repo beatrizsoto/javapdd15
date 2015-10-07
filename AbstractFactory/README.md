@@ -21,7 +21,7 @@ Este patron debe aplicarse:
 - Hace fácil el intercambio de familias de productos.
 - Fomenta la consistencia entre productos.
 
-####Desventajas:
+####Desventajas: :x:
 Para añadir nuevos productos, se requiere la implementación de el interfaz y todos sus métodos.
 ------------------------
 **[UML Abstract Factory][1]** :memo:
