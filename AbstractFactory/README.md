@@ -35,3 +35,4 @@ De esta forma, conseguiremos que nuestro sistema sea:
 [1]:http://tinyurl.com/nw8fznz
 
 [Video en español de abstract factory](https://www.youtube.com/watch?v=xNsPGA7zrVQ)
+[Video en ingles de abstract factory](https://www.youtube.com/watch?v=xbjAsdAK4xQ)
