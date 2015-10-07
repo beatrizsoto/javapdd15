@@ -11,10 +11,10 @@ Este patron debe aplicarse:
 
 ####Participantes:
 - __AbstractFactory:__ Interfaz para las operaciones de creacion de productos abstractos.
-- ConcreteFactory: Implementa las operaciones para la creacion de objetos de productos concretos.
-- AbstractProduct: Declara una interfaz para los objetos de un tipo de productos.
-- Concretreproduct: Define un objeto de producto que creara la correspondiente Concrete Factory, a la vez que implementa la interfaz de AbstractProduct.
-- Client: Sera el que utilice nuestras clases abstractas.
+- __ConcreteFactory:__ Implementa las operaciones para la creacion de objetos de productos concretos.
+- __AbstractProduct:__ Declara una interfaz para los objetos de un tipo de productos.
+- __Concretreproduct:__ Define un objeto de producto que creara la correspondiente Concrete Factory, a la vez que implementa la interfaz de AbstractProduct.
+- __Client:__ Sera el que utilice nuestras clases abstractas.
 
 **[UML Abstract Factory][1]** :memo:
 [1]:http://tinyurl.com/nw8fznz
