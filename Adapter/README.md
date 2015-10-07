@@ -24,3 +24,14 @@ Es allí donde cobra importancia el patrón adaptador o adapter pattern, el cual
 
 (https://drive.google.com/file/d/0B1Kh0IPlUf8rQ3owYUtacXdtUDg/view?usp=sharing)
 
+[imagen Bluej]
+( https://drive.google.com/file/d/0B1Kh0IPlUf8rNEdlaTkzRk1XMjg/view?usp=sharing )
+
+[imagen resultado en bluej]
+( https://drive.google.com/file/d/0B1Kh0IPlUf8rVW1DdVNLbUFTdW8/view?usp=sharing )
+
+[YouTube pattern adapter]
+( https://www.youtube.com/watch?v=qG286LQM6BU )
+
+[UML Pattern Adapter]
+( https://drive.google.com/file/d/0B1Kh0IPlUf8rS3FSWmt1UHFJeWs/view?usp=sharing )
