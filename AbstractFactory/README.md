@@ -9,7 +9,7 @@ Proporciona una interfaz para crear familias de objetos relacionados o que depen
 Este patron debe aplicarse:
 - Cuando un sistema debe ser independiente de como se crean, componen y representan sus productos
 
-####Participantes:
+####Participantes: :busts_in_silhouette:
 - __AbstractFactory:__ Interfaz para las operaciones de creacion de productos abstractos.
 - __ConcreteFactory:__ Implementa las operaciones para la creacion de objetos de productos concretos.
 - __AbstractProduct:__ Declara una interfaz para los objetos de un tipo de productos.
