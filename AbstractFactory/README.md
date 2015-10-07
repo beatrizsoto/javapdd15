@@ -7,8 +7,8 @@ Proporciona una interfaz para crear familias de objetos relacionados o que depen
 - Kit
 
 ####Tipo de patron:
-
 - De creacion
+
 ------------------------
 ####Aplicacion:
 Este patron debe aplicarse:
