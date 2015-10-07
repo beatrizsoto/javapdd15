@@ -22,7 +22,14 @@ Este patron debe aplicarse:
 - Fomenta la consistencia entre productos.
 
 ####Desventajas: :x:
-Para añadir nuevos productos, se requiere la implementación de el interfaz y todos sus métodos.
+Para añadir nuevos productos, se requiere la implementación de la interfaz y todos sus métodos
+
+###Resultados: :heavy_check_mark:
+De esta forma, conseguiremos que nuestro sistema sea:
+- Independientemente de los procesos de creacion, composición y representación de sus productos.
+- Configurable para una familia de productos.
+- Solo necesitará proporcionar una librería de productos y no de su implementación
+
 ------------------------
 **[UML Abstract Factory][1]** :memo:
 [1]:http://tinyurl.com/nw8fznz
