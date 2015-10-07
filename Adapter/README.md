@@ -9,6 +9,17 @@ El patrón adaptador nos permite **convertir** o **transformar** una interface e
 
 Es allí donde cobra importancia el patrón adaptador o adapter pattern, el cual **nos permite a través de un componente intermedio entre las dos interfaces lograr que sean compatibles** y lograr reutilizar nuestro código sin necesidad de repetirlo o acoplarlo fuertemente a alguna implementación en específico.
 
+
+-Proposito
+	
+		-Convertir la interfaz de una clase en otra distinta que espera el cliente.
+		-Permitire que un conjuto de clases con interfaces incompatibles trabajen juntas
+		-Tambien conocido como Wrapper (envoltorio).
+
+-Usa el patron adapter cuando 
+	  -Quieras utilizar una clase ya existente, pero cuya interfaz no coincide con la que necesitas.
+		-Quisieras crear una clase reutilizable que coopere con otras no relacionadas, es decir, con clases que puedan      no tener una interfaz compatible.
+		
 [imagen UML en Google Drive]
 
 (https://drive.google.com/file/d/0B1Kh0IPlUf8rQ3owYUtacXdtUDg/view?usp=sharing)
