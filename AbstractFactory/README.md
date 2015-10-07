@@ -3,7 +3,12 @@
 Proporciona una interfaz para crear familias de objetos relacionados o que dependen entre si, sin especificar sus clases concretas.
 
 ####Tambien se le conoce como:
+
 - Kit
+
+####Tipo de patron:
+
+- De creacion
 ------------------------
 ####Aplicacion:
 Este patron debe aplicarse:
