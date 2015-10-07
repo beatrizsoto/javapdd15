@@ -8,7 +8,7 @@ Define una dependencia entre objetos de uno a muchos de modo que cuando un **obj
 Debe ser utilizado cuando:
 - Un objeto necesita notificar a otros objetos cuando cambia su estado. La idea es *encapsular* estos aspectos en objetos diferentes permite variarlos y reutilizarlos independientemente.
 - Cuando existe una relación de dependencia de uno a muchos que puede requerir que un objeto *notifique a múltiples objetos* que dependen de él cuando cambia su estado.
--------------------------
+
 ####**Participantes en el patron** 
 
 Tendremos sujetos concretos cuyos cambios pueden resultar interesantes a otros y observadores a los que al menos les interesa estar pendientes de un elemento y en un momento dado, reaccionar ante sus notificaciones de cambio. Todos los sujetos tienen en común que un conjunto de objetos quieren estar pendientes de ellos. Cualquier elemento que quiera ser observado tiene que permitir indicar:
