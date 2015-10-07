@@ -5,6 +5,9 @@ Proporciona una interfaz para crear familias de objetos relacionados o que depen
 ####Tambien se le conoce como:
 - Kit
 ------------------------
-####**Aplicacion:**
+####Aplicacion:
 Este patron debe aplicarse:
 - Cuando un sistema debe ser independiente de como se crean, componen y representan sus productos
+
+**[UML Abstract Factory][1]** :memo:
+[1]:http://tinyurl.com/nw8fznz
