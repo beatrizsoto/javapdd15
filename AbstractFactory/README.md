@@ -31,8 +31,10 @@ De esta forma, conseguiremos que nuestro sistema sea:
 - Solo necesitará proporcionar una librería de productos y no de su implementación
 
 ------------------------
+###Adicional:
 **[UML Abstract Factory][1]** :memo:
 [1]:http://tinyurl.com/nw8fznz
 
 [Video en español de abstract factory](https://www.youtube.com/watch?v=xNsPGA7zrVQ)
+
 [Video en ingles de abstract factory](https://www.youtube.com/watch?v=xbjAsdAK4xQ)
