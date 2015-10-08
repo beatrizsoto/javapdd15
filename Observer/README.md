@@ -1,6 +1,7 @@
 
 ##Patrón Observer 
 ------------------------
+![alt text](http://public.blu.livefilestore.com/y1peocRcSNiHwt5xBHWZ68GDXN05ikBhZOnb4-WdE488GWFO2uqVBQEq4o3uKH9fZAPJOu0DvVopjlFkyxA43tk6A/Pattern%20Observer%20-%20Overview.png?psid=1 "Patron Observer")
 
 Define una dependencia entre objetos de uno a muchos de modo que cuando un **objeto cambia** su estado todos sus **dependientes son notificados** y actualizados automáticamente.
 
@@ -23,11 +24,18 @@ A continuación tenemos a los participantes de forma desglosada:
 - *Sujeto Concreto (ConcreteSubject)*: Mantiene el estado de interés para los observadores concretos y los notifica cuando cambia su estado. No tienen porque ser elementos de la misma jerarquía.
 - *Observador Concreto (ConcreteObserver)*: Mantiene una referencia al sujeto concreto e implementa la interfaz de actualización, es decir, guardan la referencia del objeto que observan, así en caso de ser notificados de algún cambio, pueden preguntar sobre este cambio.
 
+
+
+En este video podemos ver un ejemplo explicado y programado en tiempo real del patrón Observer.
+
+:computer:     **[Video Observer PDD][3]**
+
 ------------------------------
 
-- **[UML Observer English][1]** 
-- **[UML Observer Español][2]**
+- **[UML Observer English][1]** :memo:
+- **[UML Observer Español][2]** :memo:
 
 
 [1]:http://tinyurl.com/UMLObserverEnglish
 [2]:http://tinyurl.com/UMLObserverEspanol
+[3]:https://www.youtube.com/watch?v=Zt6478Za0zk

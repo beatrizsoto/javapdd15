@@ -4,3 +4,9 @@
 #### Características
   - Transformar las acciones de un objeto a objetos específicos para realizar las operaciones en estos nuevos objetos.
   - Permitir que las peticiones se logren realizar sin la necesidad de borrar lo existente.
+
+![](https://github.com/tectijuana/javapdd/blob/master/Command/UML.png?raw=true)
+
+## Video demostrativo
+
+[![Command](http://img.youtube.com/vi/6H_w4p7_Q5k/0.jpg)](http://www.youtube.com/watch?v=6H_w4p7_Q5k)

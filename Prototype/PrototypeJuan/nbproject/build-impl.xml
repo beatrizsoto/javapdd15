@@ -12,6 +12,7 @@ is divided into following sections:
   - execution
   - debugging
   - javadoc
+  
   - junit compilation
   - junit execution
   - junit debugging
@@ -73,6 +74,7 @@ is divided into following sections:
         </condition>
         <condition property="manifest.available+main.class">
             <and>
+              
                 <isset property="manifest.available"/>
                 <isset property="main.class.available"/>
             </and>
@@ -191,6 +193,7 @@ is divided into following sections:
             <and>
                 <matches pattern="1\.[56]" string="${java.specification.version}"/>
                 <not>
+                  
                     <os family="unix"/>
                 </not>
             </and>
@@ -911,6 +914,8 @@ is divided into following sections:
                 =======================
                 JUNIT EXECUTION SECTION
                 =======================
+                
+                
             -->
     <target depends="init" if="have.tests" name="-pre-test-run">
         <mkdir dir="${build.test.results.dir}"/>
@@ -970,6 +975,8 @@ is divided into following sections:
                 =========================
                 APPLET EXECUTION SECTION
                 =========================
+                
+                
             -->
     <target depends="init,compile-single" name="run-applet">
         <fail unless="applet.url">Must select one file in the IDE or set applet.url</fail>

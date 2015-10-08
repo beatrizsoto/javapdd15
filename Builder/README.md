@@ -13,4 +13,7 @@ UML de builder:
 + Distintos Director con distintas utilidades (visores, parsers, etc) pueden utilizar el mismo ConcreteBuilder.
 + Permite un mayor control en el proceso de creación del objeto. El Director controla la creación paso a paso, solo cuando el Builder ha terminado de construir el objeto lo recupera el Director.
 
+
+###Video:
+[![Bridge Design Pattern](http://img.youtube.com/vi/pHr01mluNVU/0.jpg)](https://www.youtube.com/watch?v=pHr01mluNVU)
 ##atte: fr3edy

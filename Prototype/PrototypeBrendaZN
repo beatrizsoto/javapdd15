@@ -1,0 +1,43 @@
+// Los productos deben implementar esta interface
+public interface Producto implements Cloneable {
+Object clone();
+// Aquí van todas las operaciones comunes a los productos que genera la factoría
+}
+// Un ejemplo básico de producto
+public class UnProducto implements Producto {
+private int atributo;
+public UnProducto(int atributo) {
+this.atributo = atributo;
+}
+public Object clone() {
+return new UnProducto(this.atributo);
+}
+public String toString() {
+return ((Integer)atributo).toString();
+}
+}
+// La clase encargada de generar objetos a partir de los prototipos
+public class FactoriaPrototipo {
+private HashMap mapaObjetos;
+private String nombrePorDefecto;
+public FactoriaPrototipo() {
+mapaObjetos = new HashMap();
+// Se incluyen en el mapa todos los productos prototipo
+mapaObjetos.put("producto 1", new UnProducto(1));
+}
+public Object create() {
+return create(nombrePorDefecto);
+}
+public Object create(String nombre) {
+nombrePorDefecto = nombre;
+Producto objeto = (Producto)mapaObjetos.get(nombre);
+return objeto != null ? objeto.clone() : null;
+}
+}
+public class PruebaFactoria {
+static public void main(String[] args) {
+FactoriaPrototipo factoria = new FactoriaPrototipo();
+Producto producto = (Producto) factoria.create("producto 1");
+System.out.println ("Este es el objeto creado: " + producto);
+}
+}
