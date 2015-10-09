@@ -33,7 +33,7 @@
 **<li>**El controlador trata el evento de entrada
 <ul>
      **<li>**Previamente se ha registrado
-     <ul>
+<ol>
 **<li>**El controlador notifica al modelo la acción del usuario, lo que
 puede implicar un cambio del estado del modelo (si no es
 una mera consulta)
@@ -41,7 +41,7 @@ una mera consulta)
 modelo.
 <ul>
     **<li>**El modelo no tiene conocimiento directo de la vista
-<ul>
+<ol>
 **<li>**La interfaz de usuario espera otra interacción del usuario,
 que comenzará otro nuevo ciclo
 <ol>
