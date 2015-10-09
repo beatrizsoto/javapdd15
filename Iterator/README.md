@@ -20,4 +20,4 @@ El patrón Iterator debe proporcionar la siguiente funcionalidad:
   Obtener información sobre si existen más elementos después del actual.
   Reiniciar la colección para que el iterador apunte nuevamente al primer elemento de la colección.
   
-   ![alt center text](https://commons.wikimedia.org/wiki/File:Estructura_patr%C3%B3n_iterador.png "Logo Title Text 1")
+   ![alt center text](http://ciberaula.com/imagenes/articulo/iterator.gif"Logo Title Text 1")
