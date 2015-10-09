@@ -29,15 +29,15 @@
 
 ####Flujo de control
 <ol>
-<li>**1.** El usuario realiza una acción en la interfaz<li>
+<li>**1.** El usuario realiza una acción en la interfaz
 <li>**2.** El controlador trata el evento de entrada
-                  Previamente se ha registrado
+            <p>Previamente se ha registrado
 <li>**3.** El controlador notifica al modelo la acción del usuario, lo que
 puede implicar un cambio del estado del modelo (si no es
 una mera consulta)
 <li>**4.** Se genera una nueva vista. La vista toma los datos del
 modelo
-                 El modelo no tiene conocimiento directo de la vista
+            <p>El modelo no tiene conocimiento directo de la vista
 <li>**5.** La interfaz de usuario espera otra interacción del usuario,
 que comenzará otro nuevo ciclo
 <ol>
