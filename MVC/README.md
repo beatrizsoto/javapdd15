@@ -28,18 +28,19 @@
 
 
 ####Flujo de control
-<ul>
+<ol>
 <li>**1.** El usuario realiza una acción en la interfaz<li>
-**2.** El controlador trata el evento de entrada
-                  Previamente se ha registrado
-**3.** El controlador notifica al modelo la acción del usuario, lo que
+<li>**2.** El controlador trata el evento de entrada
+                  Previamente se ha registrado<li>
+<li>**3.** El controlador notifica al modelo la acción del usuario, lo que
 puede implicar un cambio del estado del modelo (si no es
-una mera consulta)
-**4.** Se genera una nueva vista. La vista toma los datos del
+una mera consulta)<li>
+<li>**4.** Se genera una nueva vista. La vista toma los datos del
 modelo
-                 El modelo no tiene conocimiento directo de la vista
-**5.** La interfaz de usuario espera otra interacción del usuario,
-que comenzará otro nuevo ciclo
+                 El modelo no tiene conocimiento directo de la vista<li>
+<li>**5.** La interfaz de usuario espera otra interacción del usuario,
+que comenzará otro nuevo ciclo<li>
+<ol>
 
 
     BENAVIDEZ RODRIGUEZ CHRISTIAN ARMANDO 12211884
