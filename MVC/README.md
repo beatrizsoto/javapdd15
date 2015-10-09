@@ -5,4 +5,23 @@
 
 ![alt center text](http://www.juanminaya.com/blog/wp-content/uploads/2010/03/mvc.jpg "Logo Title Text 1")
 
+
+<h1>El patrón de arquitectura "modelo vista controlador", es una filosofía de diseño de aplicaciones, compuesta por:</h1>
+
+**Modelo
+<ul>
+<li>Contiene el núcleo de la funcionalidad (dominio) de la aplicación.</li>
+<li>Encapsula el estado de la aplicación.</li>
+<li>No sabe nada / independiente del Controlador y la Vista.</li>
+</ul>
+Vista
+<li>Es la presentación del Modelo.</li>
+<li>Puede acceder al Modelo pero nunca cambiar su estado.</li>
+<li>Puede ser notificada cuando hay un cambio de estado en el Modelo.</li>
+
+Controlador
+<li>Reacciona a la petición del Cliente, ejecutando la acción adecuada y creando el modelo pertinente**</li>
+
+
+
 BY: BENAVIDEZ RODRIGUEZ CHRISTIAN ARMANDO 12211884
