@@ -6,9 +6,6 @@ objetos de forma que, cuando un objeto cambia
 de estado, se notifica a los objetos dependientes
 para que se actualicen automáticamente.
 
-UML
-http://3.bp.blogspot.com/-AIAS9fRfLkQ/UVy_RM93UII/AAAAAAAAAu0/PUXCipikAZo/s1600/ObserverPattern2.PNG
-
 Consecuencias
 
 Permite modificar sujetos y obser
@@ -37,8 +34,8 @@ s en sus observadores. El
 protocolo no ofrece detalle
 s sobre lo que ha cambiado.
 
-
-
+UML
+http://3.bp.blogspot.com/-AIAS9fRfLkQ/UVy_RM93UII/AAAAAAAAAu0/PUXCipikAZo/s1600/ObserverPattern2.PNG
 
 
 CODIGO JAVA
