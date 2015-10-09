@@ -6,7 +6,7 @@ objetos de forma que, cuando un objeto cambia
 de estado, se notifica a los objetos dependientes
 para que se actualicen automáticamente.
 
-http://arantxa.ii.uam.es/~eguerra/docencia/0809/09%20Observer.pdf
+http://www.dofactory.com/images/diagrams/net/observer.gif
 
 Consecuencias
 
