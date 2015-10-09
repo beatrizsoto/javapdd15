@@ -10,7 +10,7 @@
 
 
 
-#### El patrón de arquitectura MVC, es una filosofía de diseño de aplicaciones, compuesta por:
+<p> #### El patrón de arquitectura MVC, es una filosofía de diseño de aplicaciones, compuesta por:</p> 
 
 **Modelo**
 <ul>
@@ -18,7 +18,7 @@
 <li>Encapsula el estado de la aplicación.</li>
 <li>No sabe nada / independiente del Controlador y la Vista.</li>
 </ul>
-**Vista**
+**Vista** 
 <li>Es la presentación del Modelo.</li>
 <li>Puede acceder al Modelo pero nunca cambiar su estado.</li>
 <li>Puede ser notificada cuando hay un cambio de estado en el Modelo.</li>
@@ -28,5 +28,5 @@
 
 
 
-BY: BENAVIDEZ RODRIGUEZ CHRISTIAN ARMANDO 12211884
+<p> BY: BENAVIDEZ RODRIGUEZ CHRISTIAN ARMANDO 12211884</p> 
     ODAIR ROBLES PAZ 12210436
