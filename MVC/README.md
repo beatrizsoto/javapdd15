@@ -26,6 +26,27 @@
 **Controlador**
 <li>Reacciona a la petición del Cliente, ejecutando la acción adecuada y creando el modelo pertinente**</li>
 
+####MVC en Java Swing
+<ul>
+<li>Modelo:
+<ul>
+     <li>El modelo lo realiza el desarrollador</li>
+   </ul>
+   </li>
+<li>Vista:
+<ul>
+     <li>Conjunto de objetos de clases que heredan de
+     java.awt.Component</li>
+</ul>
+</li>
+<li>Controlador:
+<ul>
+     <li>El controlador es el thread de tratamiento de eventos, que
+captura y propaga los eventos a la vista y al modelo</li>
+     <li>Clases de tratamiento de los eventos (a veces como clases
+anónimas) que implementan interfaces de tipo EventListener
+(ActionListener, MouseListener, WindowListener, etc.)</li>
+</ul>
 
 ####Flujo de control
 <ol>
