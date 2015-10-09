@@ -35,6 +35,6 @@ El patrón se utiliza en los siguientes casos:
 ●La  implementación  de  esta  dependencia  del  estado  mediante  instrucciones  condicionales  se  vuelve  muy 
 compleja. 
 
-![](https://www.dropbox.com/s/n3ick8qqlhorrj6/Sin%20t%C3%ADtulo.png?raw=true "Strategy UML")
+![](https://www.dropbox.com/s/n3ick8qqlhorrj6/Sin%20t%C3%ADtulo.png?raw=true "State UML")
 
 
