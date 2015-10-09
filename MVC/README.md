@@ -29,7 +29,7 @@
 
 ####Flujo de control
 <ul>
-**1.** El usuario realiza una acción en la interfaz
+<li>**1.** El usuario realiza una acción en la interfaz<li>
 **2.** El controlador trata el evento de entrada
                   Previamente se ha registrado
 **3.** El controlador notifica al modelo la acción del usuario, lo que
