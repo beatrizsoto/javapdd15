@@ -27,6 +27,20 @@
 <li>Reacciona a la petición del Cliente, ejecutando la acción adecuada y creando el modelo pertinente**</li>
 
 
+####Flujo de control
+<ul>
+**1.** El usuario realiza una acción en la interfaz
+**2.** El controlador trata el evento de entrada
+                  Previamente se ha registrado
+**3.** El controlador notifica al modelo la acción del usuario, lo que
+puede implicar un cambio del estado del modelo (si no es
+una mera consulta)
+**4.** Se genera una nueva vista. La vista toma los datos del
+modelo
+                 El modelo no tiene conocimiento directo de la vista
+**5.** La interfaz de usuario espera otra interacción del usuario,
+que comenzará otro nuevo ciclo
+
 
     BENAVIDEZ RODRIGUEZ CHRISTIAN ARMANDO 12211884
     ODAIR ROBLES PAZ 12210436
