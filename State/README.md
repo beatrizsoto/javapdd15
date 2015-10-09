@@ -1,6 +1,6 @@
 
 El patrón State permite a un objeto adaptar su comportamiento en función de su estado interno. 
-
+![alt center text](https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620 "Logo Title Text 1")
 El patrón State tiene la misión fundamental de encapsular el comportamiento de un objeto dependiendo del estado en el que éste se encuentre. Estrictamente hablando, podemos definir el estado de un objeto como el conjunto actual de los valores de los atributos de un objeto. Podríamos definir un estado como un conjunto de características que harán que el objeto tenga unas características concretas. 
 
 
