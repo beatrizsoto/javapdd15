@@ -1,7 +1,4 @@
-Dentro del marco de la programación orientada a objetos, el patron Template Method(Método de plantilla o Método Modelo en esapñol) es un patrón de diseño, llamados patrones de comportamiento donde se caracteriza por definición dentro de una operación de una superclase. 
-
-Permite que ciertos pasos de un algoritmo definido en una operación de una superclase, sean redefinidos en las subclases sin necesidad de tener que sobreescribir la operaciń entera.
-
+Dentro del marco de la programación orientada a objetos, el patrón Template Method (Método Plantilla o Método Modelo en español) es un patrón de diseño enmarcado dentro de los llamados patrones de comportamiento, que se caracteriza por la definición, dentro de una operación de una superclase, de los pasos de un algoritmo, de forma que todos o parte de estos pasos son redefinidos en las subclases herederas de la citada superclase.
 
 
 
