@@ -18,6 +18,6 @@ Según esto, podemos decir que los componentes típicos del patrón Abstract Fac
 
 Este sería el diagrama de clases general del patrón de creación Abstract Factory:
 
-![](https://drive.google.com/file/d/0B_C94Hl6_nLQVlNsMjB4czFoMlU/view?usp=sharing)
+[](https://drive.google.com/file/d/0B_C94Hl6_nLQVlNsMjB4czFoMlU/view?usp=sharing)
 
 
