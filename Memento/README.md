@@ -30,7 +30,7 @@ Clase interna estatica de Originator que contiene su estado. El Originator deter
 Es la clase que maneja los Mementos
 Nunca necesita saber que hay en Memento, solo necesita saber que el objeto que recibe permite restaurar el estado del Originator.
 
-![Patron de diseño Memento](https://drive.google.com/file/d/0B83_9SGe2_UJcGlidjdnZ1loTlk/view)
+![Patron de diseño Memento](https://drive.google.com/open?id=0B83_9SGe2_UJcGlidjdnZ1loTlk)
 
 [![Patron de diseño Memento](http://img.youtube.com/vi/YeisVHBt7l0/0.jpg)](http://www.youtube.com/watch?v=YeisVHBt7l0)
 
