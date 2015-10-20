@@ -4,7 +4,7 @@
 
 <h2>Diagrama UML</h2>
 
-![alt center text](http://www.juanminaya.com/blog/wp-content/uploads/2010/03/mvc.jpg "Logo Title Text 1")
+![alt center text](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCPT5n9TR0cgCFUjhYwodEfgDYQ&url=https%3A%2F%2Fprezi.com%2Fgagoo_ncbj6r%2Fpatron-de-diseno-de-software%2F&bvm=bv.105454873,d.cGc&psig=AFQjCNFPktyJ8WRA-Ne_zJtDc0lBiUw3kg&ust=1445450705316345 "Logo Title Text 1")
 
 
 
