@@ -2,14 +2,6 @@
 **Es un patrón de arquitectura de software que separa los datos y la lógica de negocio de una aplicación de la interfaz de usuario y el módulo encargado de gestionar los eventos y las comunicaciones. Para   ello   MVC propone la construcción de tres componentes distintos que son el modelo, la vista y el controlador, es decir, por un lado define componentes para la representación de la información, y por otro lado para la interacción del usuario. Este patrón de arquitectura de software se basa en las ideas de reutilización de código y la separación de conceptos, características que buscan facilitar la tarea de desarrollo de aplicaciones y su posterior mantenimiento.**
 
 
-<h2>Diagrama UML</h2>
-
-![alt center text](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCPT5n9TR0cgCFUjhYwodEfgDYQ&url=https%3A%2F%2Fprezi.com%2Fgagoo_ncbj6r%2Fpatron-de-diseno-de-software%2F&bvm=bv.105454873,d.cGc&psig=AFQjCNFPktyJ8WRA-Ne_zJtDc0lBiUw3kg&ust=1445450705316345 "Logo Title Text 1")
-
-
-
-
-
 ####El patrón de arquitectura MVC, es una filosofía de diseño de aplicaciones, compuesta por:
 
 **Modelo**
