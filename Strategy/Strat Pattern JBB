@@ -1,0 +1,8 @@
+The strategy pattern is a behavioral design pattern that allows you to decide which course of action 
+a program should take, based on a specific context during runtime. You encapsulate two
+different algorithms inside two classes, and decide at runtime which strategy you want to go with.
+
+Strategy pattern is one of the behavioral design pattern. Strategy pattern is used when we have multiple algorithm for a
+specific task and client decides the actual implementation to be used at runtime.
+
+https://s3.amazonaws.com/nettuts/733_design/images/strategyintro.jpg
